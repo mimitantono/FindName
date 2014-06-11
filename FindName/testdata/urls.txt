@@ -1,0 +1,36 @@
+2014-06-10
+
+data1
+http://www.oracle.com/us/corporate/press/BoardofDirectors/index.html
+
+data2
+http://investor.fb.com/directors.cfm
+
+data3
+http://thomsonreuters.com/about-us/board-of-directors/
+
+data4
+http://www-03.ibm.com/press/us/en/biographies.wss
+
+data5
+http://global.sap.com/corporate-en/our-company/sap-boards/executive-board/index.epx
+
+Latest result:
+2014-06-11 20:48:30,541 INFO [com.code.test.ParserTest] - <Test Data #1 identified 12 names, expected 11>
+2014-06-11 20:48:30,541 WARN [com.code.test.ParserTest] - <Missed out name: Dr. Michael J. Boskin>
+2014-06-11 20:48:30,541 WARN [com.code.test.ParserTest] - <Unexpected name: Michael J. Boskin>
+2014-06-11 20:48:30,541 WARN [com.code.test.ParserTest] - <Unexpected name: Ostriker von Simson>
+2014-06-11 20:48:31,312 INFO [com.code.test.ParserTest] - <Test Data #2 identified 13 names, expected 13>
+2014-06-11 20:48:31,956 INFO [com.code.test.ParserTest] - <Test Data #3 identified 16 names, expected 13>
+2014-06-11 20:48:31,956 WARN [com.code.test.ParserTest] - <Missed out name: Ken Olisa, OBE>
+2014-06-11 20:48:31,956 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters Eikon>
+2014-06-11 20:48:31,956 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters Elektron>
+2014-06-11 20:48:31,956 WARN [com.code.test.ParserTest] - <Unexpected name: Ken Olisa>
+2014-06-11 20:48:31,956 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters>
+2014-06-11 20:48:32,320 INFO [com.code.test.ParserTest] - <Test Data #4 identified 16 names, expected 17>
+2014-06-11 20:48:32,320 WARN [com.code.test.ParserTest] - <Missed out name: Board of Directors>
+2014-06-11 20:48:32,320 WARN [com.code.test.ParserTest] - <Missed out name: Dr. John E. Kelly III>
+2014-06-11 20:48:32,320 WARN [com.code.test.ParserTest] - <Missed out name: Robert C. Weber >
+2014-06-11 20:48:32,321 WARN [com.code.test.ParserTest] - <Unexpected name: John E. Kelly III>
+2014-06-11 20:48:32,321 WARN [com.code.test.ParserTest] - <Unexpected name: Robert C. Weber>
+2014-06-11 20:48:32,907 INFO [com.code.test.ParserTest] - <Test Data #5 identified 5 names, expected 5>

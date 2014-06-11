@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project FindName with libraries in sub-folder">
+	<target name="create_run_jar">
+		<jar destfile="findname.jar">
+			<manifest>
+				<attribute name="Main-Class" value="com.code.util.Main" />
+				<attribute name="Class-Path" value=". lib/stanford-ner.jar lib/junit-4.11.jar lib/tika-app-1.5.jar lib/log4j-1.2.17.jar" />
+			</manifest>
+			<fileset dir="bin"/>
+        </jar>
+    </target>
+</project>

@@ -1,0 +1,18 @@
+2014-06-11 21:51:02,157 INFO [com.code.test.ParserTest] - <Test Data #1 identified 12 names, expected 11>
+2014-06-11 21:51:02,157 WARN [com.code.test.ParserTest] - <Missed out name: Dr. Michael J. Boskin>
+2014-06-11 21:51:02,157 WARN [com.code.test.ParserTest] - <Unexpected name: Michael J. Boskin>
+2014-06-11 21:51:02,157 WARN [com.code.test.ParserTest] - <Unexpected name: Ostriker von Simson>
+2014-06-11 21:51:03,061 INFO [com.code.test.ParserTest] - <Test Data #2 identified 13 names, expected 13>
+2014-06-11 21:51:03,764 INFO [com.code.test.ParserTest] - <Test Data #3 identified 16 names, expected 13>
+2014-06-11 21:51:03,765 WARN [com.code.test.ParserTest] - <Missed out name: Ken Olisa, OBE>
+2014-06-11 21:51:03,765 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters Eikon>
+2014-06-11 21:51:03,765 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters Elektron>
+2014-06-11 21:51:03,765 WARN [com.code.test.ParserTest] - <Unexpected name: Ken Olisa>
+2014-06-11 21:51:03,765 WARN [com.code.test.ParserTest] - <Unexpected name: Thomson Reuters>
+2014-06-11 21:51:04,063 INFO [com.code.test.ParserTest] - <Test Data #4 identified 16 names, expected 17>
+2014-06-11 21:51:04,064 WARN [com.code.test.ParserTest] - <Missed out name: Board of Directors>
+2014-06-11 21:51:04,064 WARN [com.code.test.ParserTest] - <Missed out name: Dr. John E. Kelly III>
+2014-06-11 21:51:04,064 WARN [com.code.test.ParserTest] - <Missed out name: Robert C. Weber >
+2014-06-11 21:51:04,064 WARN [com.code.test.ParserTest] - <Unexpected name: John E. Kelly III>
+2014-06-11 21:51:04,064 WARN [com.code.test.ParserTest] - <Unexpected name: Robert C. Weber>
+2014-06-11 21:51:04,600 INFO [com.code.test.ParserTest] - <Test Data #5 identified 5 names, expected 5>
